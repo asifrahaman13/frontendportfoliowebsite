@@ -1,0 +1,98 @@
+.footer-components {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 400px) {
+  .footer-components {
+    flex-wrap: wrap;
+  }
+}
+.footer {
+  background-color: rgb(249, 247, 255);
+  height: 1200px !important;
+  margin-top: auto;
+}
+.footer-components * {
+  padding: 40px;
+  margin: 4vw;
+  width: 4vw;
+}
+
+.github {
+  background-image: url("../assests/github.png");
+  background-size: 100% 100%;
+}
+.facebook {
+  background-image: url("../assests/facebook.png");
+  background-size: 100% 100%;
+}
+.instagram {
+  background-image: url("../assests/instagram.png");
+  background-size: 100% 100%;
+}
+.linkedin {
+  background-image: url("../assests/linkedin.png");
+  background-size: 100% 100%;
+}
+.telegram {
+  background-image: url("../assests/telegram.png");
+  background-size: 100% 100%;
+}
+.gmail {
+  background-image: url("../assests/gmail.png");
+  background-size: 100% 100%;
+}
+
+.skills {
+  padding: 32px;
+  color: rgb(39, 3, 80);
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .footer-components * {
+    height: 1vh !important;
+    width: 1vw !important;
+    display: flex !important;
+    margin: 10vw !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+  }
+  .footer-components {
+    height: 2000px !important;
+  }
+}
+
+@media ((max-width: 800px) and (min-width:400px)) {
+  .footer * {
+    width: 25vw;
+    height: 15vh;
+    margin: 1vh;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    height: 1000px;
+  }
+  .footer-components {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    margin: 1px;
+    height: 100vh;
+  }
+  .footer-components * {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    margin: 0.1px;
+  }
+}
