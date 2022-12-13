@@ -1,6 +1,6 @@
 {
   "name": "ecom",
-  "homepage": "http://asifrahaman13.github.io", 
+    "homepage": "http://asifrahaman13.github.io/home", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
